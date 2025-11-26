@@ -1,0 +1,13 @@
+{
+    "title": "Profile Settings",
+    "change_photo": "Change",
+    "display_name_placeholder": "Display Name",
+    "account_info": "Account Info",
+    "saving": "Saving...",
+    "save_changes": "Save Changes",
+    "loading_profile": "Loading profile...",
+    "success_nickname": "✅ Nickname updated successfully!",
+    "success_avatar": "✅ Avatar uploaded successfully!",
+    "error_upload": "Upload failed",
+    "error_connection": "❌ Connection error"
+}

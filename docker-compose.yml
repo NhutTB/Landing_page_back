@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./EXE201-CodeNova-BackEnd
+      dockerfile: Dockerfile
+    container_name: codenova-backend
+    env_file:
+      - ./.env # Tệp .env của backend ở thư mục gốc
+    environment:
+      # Ghi đè các biến cần thiết cho môi trường Docker
+      - NODE_ENV=production # Chạy ở chế độ production
+      - DB_HOST=host.docker.internal # Kết nối tới DB trên máy host
+      # Cho phép yêu cầu từ origin của frontend
+      - CORS_ORIGIN=http://localhost:5173
+    ports:
+      - "5000:5000"
+    restart: always
+
+  frontend:
+    build:
+      context: ./EXE201-CodeNova-FrontEnd
+      dockerfile: Dockerfile
+      args:
+        # Truyền biến môi trường vào quá trình build của React
+        # /api là đường dẫn tương đối, sẽ được Nginx proxy
+        - REACT_APP_API_BASE_URL=/api
+    container_name: codenova-frontend
+    ports:
+      - "5173:80" # Map cổng 5173 của máy host vào cổng 80 của container Nginx
+    depends_on:
+      - backend
+    restart: always
+
+    # Cấu hình Nginx để làm reverse proxy cho API
+    # Điều này giúp tránh lỗi CORS một cách hiệu quả
+    # Khi frontend gọi /api/..., Nginx sẽ chuyển tiếp yêu cầu đến backend:5000/api/...
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+
+networks:
+  default:
+    driver: bridge

@@ -1,0 +1,16 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy file package để cài dependency trước
+COPY package*.json ./
+
+# Cài đặt dependencies (sẽ cài uuid 8.3.2 như trong package.json)
+RUN npm install --production
+
+# Copy mã nguồn (lúc này .dockerignore sẽ chặn folder node_modules ở máy bạn)
+COPY . .
+
+EXPOSE 5000
+
+CMD ["node", "server.js"]

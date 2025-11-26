@@ -1,0 +1,16 @@
+{
+    "title": "Create Account",
+    "subtitle": "Get started with your journey.",
+    "email_placeholder": "Email",
+    "password_placeholder": "Password",
+    "confirm_password_placeholder": "Confirm Password",
+    "register_button": "Register",
+    "registering": "Registering...",
+    "have_account": "Already have an account?",
+    "login_link": "Login",
+    "error_password_match": "Passwords do not match",
+    "error_registration_failed": "Registration failed",
+    "app_name": "ComicTranslator",
+    "headline": "Join the Community",
+    "description": "Experience automated comic translation with top-tier AI."
+}

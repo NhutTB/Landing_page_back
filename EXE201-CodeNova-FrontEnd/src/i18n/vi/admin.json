@@ -1,0 +1,15 @@
+{
+    "dashboard_title": "Tổng quan",
+    "total_revenue": "Tổng Doanh Thu",
+    "total_revenue_desc": "Tổng từ trước đến nay",
+    "today_revenue": "Doanh Thu (Hôm nay)",
+    "tokens_sold": "Tokens đã bán",
+    "tokens_used_today": "Tokens Đã Dùng (Hôm nay)",
+    "avg_token_per_req": "TB mỗi request",
+    "total_users": "Tổng Số Người Dùng",
+    "new_users_today": "Người mới hôm nay",
+    "chart_title": "Token Đã Dùng 7 Ngày Qua",
+    "loading": "Đang tải dữ liệu...",
+    "user_list_title": "Quản lý Người dùng",
+    "user_list_desc": "Đây là trang quản lý người dùng. Bạn có thể thêm bảng (table) để hiển thị danh sách user từ database ở đây."
+}

@@ -1,0 +1,9 @@
+{
+    "welcome_back": "Chào mừng trở lại, {{name}}! 👋",
+    "dashboard_intro": "Dưới đây là cái nhìn nhanh về bảng điều khiển ComicTranslator của bạn.",
+    "active_plan": "Gói hiện tại",
+    "renews_on": "Gia hạn vào {{date}}",
+    "translation_stats": "Thống kê dịch thuật",
+    "this_month": "+12% tháng này",
+    "no_recent_comics": "Chưa có truyện nào gần đây."
+}

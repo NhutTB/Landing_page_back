@@ -1,0 +1,15 @@
+{
+    "title": "PAYMENT",
+    "package": "Package",
+    "amount": "Amount",
+    "momo_wallet": "MoMo Wallet",
+    "create_qr_btn": "Create Payment QR",
+    "creating_qr": "Creating QR...",
+    "scan_qr_desc": "Scan the QR code below with MoMo app to pay",
+    "auto_update_desc": "The system will automatically update after successful payment.",
+    "open_app_btn": "Open MoMo App (Mobile)",
+    "back_btn": "Back",
+    "cancel_btn": "Cancel & Return",
+    "error_only_momo": "Currently only MoMo is supported",
+    "error_create_failed": "Error: {{message}}"
+}

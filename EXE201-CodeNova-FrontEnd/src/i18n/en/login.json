@@ -1,0 +1,14 @@
+{
+  "app_name": "ComicTranslator",
+  "headline": "Translate Comics Instantly in Your Language",
+  "description": "No downloads. No hassle. ComicTranslator brings every panel to life in your tongue.",
+  "title": "Login",
+  "subtitle": "Welcome back. Please login to continue.",
+  "email_placeholder": "Email",
+  "password_placeholder": "Password",
+  "forgot_password": "Forgot Password?",
+  "login_button": "Login",
+  "no_account": "Don’t have an account?",
+  "register": "Register",
+  "video_fallback": "Your browser does not support the video tag."
+}

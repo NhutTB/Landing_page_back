@@ -1,0 +1,15 @@
+{
+    "dashboard_title": "Dashboard",
+    "total_revenue": "Total Revenue",
+    "total_revenue_desc": "All time total",
+    "today_revenue": "Revenue (Today)",
+    "tokens_sold": "Tokens sold",
+    "tokens_used_today": "Tokens Used (Today)",
+    "avg_token_per_req": "Avg per request",
+    "total_users": "Total Users",
+    "new_users_today": "New users today",
+    "chart_title": "Tokens Used Last 7 Days",
+    "loading": "Loading data...",
+    "user_list_title": "User Management",
+    "user_list_desc": "This is the user management page. You can add a table to display the user list from the database here."
+}

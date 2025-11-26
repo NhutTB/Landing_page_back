@@ -1,0 +1,56 @@
+################################
+# 🚀 CHUẨN HÓA .GITIGNORE #
+################################
+
+# 1. THƯ MỤC LỚN VÀ DEPENDENCIES (node_modules)
+# Dùng / ở cuối để chỉ rõ là thư mục
+node_modules/
+/uploads/                  # Thư mục lưu trữ ảnh tải lên (rất quan trọng phải IGNORE)
+
+
+# 2. FILE CẤU HÌNH VÀ BẢO MẬT (Environment)
+# Giữ nguyên định dạng .env* để bao gồm mọi biến thể
+.env
+.env.*
+.env.local
+
+
+# 3. BUILD OUTPUT VÀ DISTRIBUTABLES
+# Thư mục chứa code đã được biên dịch (không cần commit)
+/dist
+/build
+/out
+.parcel-cache
+*.tsbuildinfo
+
+
+# 4. LOGS, CACHE VÀ PID FILES
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+/coverage                  # Thư mục kết quả Coverage test
+*.lcov
+
+
+# 5. IDE VÀ EDITOR (Theo chuẩn VS Code, JetBrains)
+# Visual Studio Code
+.vscode/
+.history/                   # Lịch sử cục bộ của VS Code (local history)
+
+# JetBrains IDEs (WebStorm, IntelliJ)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Các file tạm (swp, bak, etc.)
+*.swp
+*.swo
+*.bak
+
+
+# 6. FILE HỆ ĐIỀU HÀNH (OS)
+.DS_Store                  # Mac OS
+Thumbs.db                  # Windows

@@ -1,0 +1,15 @@
+{
+    "title": "THANH TOÁN",
+    "package": "Gói",
+    "amount": "Thành tiền",
+    "momo_wallet": "Ví MoMo",
+    "create_qr_btn": "Tạo Mã QR Thanh Toán",
+    "creating_qr": "Đang tạo mã QR...",
+    "scan_qr_desc": "Quét mã bên dưới bằng ứng dụng MoMo để thanh toán",
+    "auto_update_desc": "Hệ thống sẽ tự động cập nhật sau khi thanh toán thành công.",
+    "open_app_btn": "Mở App MoMo (Mobile)",
+    "back_btn": "Quay lại",
+    "cancel_btn": "Hủy bỏ & quay về",
+    "error_only_momo": "Hiện tại chỉ hỗ trợ MoMo",
+    "error_create_failed": "Lỗi: {{message}}"
+}

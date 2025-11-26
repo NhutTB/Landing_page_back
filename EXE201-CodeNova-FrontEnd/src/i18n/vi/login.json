@@ -1,0 +1,14 @@
+{
+  "app_name": "Trình Dịch Truyện",
+  "headline": "Dịch truyện tranh tức thì theo ngôn ngữ của bạn",
+  "description": "Không cần tải, không phiền phức. ComicTranslator giúp bạn đọc mọi khung truyện bằng tiếng mẹ đẻ.",
+  "title": "Đăng nhập",
+  "subtitle": "Chào mừng trở lại. Vui lòng đăng nhập để tiếp tục.",
+  "email_placeholder": "Email",
+  "password_placeholder": "Mật khẩu",
+  "forgot_password": "Quên mật khẩu?",
+  "login_button": "Đăng nhập",
+  "no_account": "Chưa có tài khoản?",
+  "register": "Đăng ký",
+  "video_fallback": "Trình duyệt của bạn không hỗ trợ thẻ video."
+}

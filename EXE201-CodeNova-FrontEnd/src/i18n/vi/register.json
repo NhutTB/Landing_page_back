@@ -1,0 +1,16 @@
+{
+    "title": "Tạo tài khoản",
+    "subtitle": "Bắt đầu hành trình của bạn.",
+    "email_placeholder": "Email",
+    "password_placeholder": "Mật khẩu",
+    "confirm_password_placeholder": "Xác nhận mật khẩu",
+    "register_button": "Đăng ký",
+    "registering": "Đang đăng ký...",
+    "have_account": "Đã có tài khoản?",
+    "login_link": "Đăng nhập",
+    "error_password_match": "Mật khẩu không khớp",
+    "error_registration_failed": "Đăng ký thất bại",
+    "app_name": "ComicTranslator",
+    "headline": "Tham gia cộng đồng",
+    "description": "Trải nghiệm dịch truyện tranh tự động với AI hàng đầu."
+}

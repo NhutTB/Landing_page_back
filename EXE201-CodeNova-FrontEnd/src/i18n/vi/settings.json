@@ -1,0 +1,13 @@
+{
+    "title": "Cài đặt tài khoản",
+    "change_photo": "Đổi ảnh",
+    "display_name_placeholder": "Tên hiển thị",
+    "account_info": "Thông tin tài khoản",
+    "saving": "Đang lưu...",
+    "save_changes": "Lưu thay đổi",
+    "loading_profile": "Đang tải thông tin tài khoản...",
+    "success_nickname": "✅ Cập nhật tên hiển thị thành công!",
+    "success_avatar": "✅ Tải ảnh đại diện thành công!",
+    "error_upload": "Tải ảnh thất bại",
+    "error_connection": "❌ Lỗi kết nối server"
+}

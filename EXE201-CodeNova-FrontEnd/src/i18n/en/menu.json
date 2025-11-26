@@ -1,0 +1,9 @@
+{
+    "welcome_back": "Welcome back, {{name}}! 👋",
+    "dashboard_intro": "Here's a quick look at your ComicTranslator dashboard.",
+    "active_plan": "Active Plan",
+    "renews_on": "Renews on {{date}}",
+    "translation_stats": "Translation Stats",
+    "this_month": "+12% this month",
+    "no_recent_comics": "No recent comics to display yet."
+}
